@@ -7,7 +7,7 @@ name: Build and deploy Python and React app to Azure Web App - Platanalisis
 on:
   push:
     branches:
-      - main  # Asegúrate de que tu rama principal sea 'main' (o cámbiala a 'master' si es necesario)
+      - master  # Asegúrate de que tu rama principal sea 'main' (o cámbiala a 'master' si es necesario)
   workflow_dispatch:
 
 jobs:
